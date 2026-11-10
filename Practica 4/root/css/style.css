@@ -1,0 +1,100 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+img {
+    border-radius: 15px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+/* Recuperem els requadres de text originals */
+p {
+    float: left;
+    margin: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(214, 188, 188);
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: red;
+}
+
+/* Estils del menú */
+nav ul {
+    list-style: none;
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px;
+    float: left;
+    width: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Contingut principal amb el marge de 20px demanat i overflow per contenir els elements flotants */
+.contingut-principal {
+    margin: 20px;
+    overflow: hidden;
+}
+
+/* Peu de pàgina a baix de tot, ocupant tota l'amplada, amb text centrat i blanc */
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    clear: both;
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer p {
+    float: none;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    color: white;
+    text-align: center;
+    margin: 0;
+    border: none;
+}
+
+/* Estils Pàgina Sobre Mi */
+.img-principal {
+    margin-right: 20px;
+    border-radius: 15px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img-secundaria {
+    border-radius: 15px;
+    border: 5px solid black;
+    width: 100px;
+}
+
+td {
+    border: 1px solid #000000;
+}
+
+th {
+    border: 1px solid black;
+}
